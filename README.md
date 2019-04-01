@@ -11,6 +11,11 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Criando um cliente MQTT no ESP
 * Publicando em um tópico ('hello') 
 * Subescrevendo em um tópico ('notification') 
+* Testando a comunicação via "Websocket UI" do site cloudmqtt
+* arquivos disponíveis na pasta "/teste1" 
+
 
 ## Referências 
-* https://www.embarcados.com.br/micropython-no-esp8266/
+* Primeiros passos com MicroPython no ESP8266, https://www.embarcados.com.br/micropython-no-esp8266/
+* MicroPython – Getting Started with MQTT on ESP32/ESP8266, https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/ 
+* IDE uPyCraft, https://github.com/DFRobot/uPyCraft_src
