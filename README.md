@@ -14,6 +14,13 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Testando a comunicação via "Websocket UI" do site cloudmqtt
 * arquivos disponíveis na pasta "/teste1" 
 
+## Teste 2 
+* Ajustando o cliente MQTT no ESP para uso de um relé
+* Subescrevendo em um tópico ('rele1')
+* Modificando a função 'sub_cb' para desativar o relé quando receber 0 ou ativar quando receber 1 no tópico 'rele1'
+* Testando a comunicação via "Websocket UI" do site cloudmqtt
+* arquivos disponíveis na pasta "/teste1" 
+
 
 ## Referências 
 * Primeiros passos com MicroPython no ESP8266, https://www.embarcados.com.br/micropython-no-esp8266/
