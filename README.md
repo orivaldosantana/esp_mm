@@ -5,21 +5,20 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * uPyCraft -IDE de desenvolvimento em MicroPython e ESP, https://www.embarcados.com.br/micropython-no-esp8266/
 
 ## Configuração do Broker MQTT 
-* CloudMQTT - Disponível na internet e possui um plano básico limitado e gratudo, https://www.cloudmqtt.com/ 
+* CloudMQTT - Disponível na internet e possui um plano básico limitado e gratuíto, https://www.cloudmqtt.com/ 
 
 ## Teste 1
 * Criando um cliente MQTT no ESP
 * Publicando em um tópico ('hello') 
 * Subescrevendo em um tópico ('notification') 
 * Testando a comunicação via "Websocket UI" do site cloudmqtt
-* arquivos disponíveis na pasta "/teste1" 
+* Arquivos disponíveis na pasta "/teste1" 
 
 ## Teste 2 
 * Ajustando o cliente MQTT no ESP para uso de um relé
 * Subescrevendo em um tópico ('rele1')
 * Modificando a função 'sub_cb' para desativar o relé quando receber 0 ou ativar quando receber 1 no tópico 'rele1'
-* Testando a comunicação via "Websocket UI" do site cloudmqtt
-* arquivos disponíveis na pasta "/teste1" 
+* Arquivos disponíveis na pasta "/teste2" 
 
 
 ## Referências 
