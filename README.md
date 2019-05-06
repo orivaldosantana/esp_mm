@@ -25,7 +25,8 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Instalando o Broker MQTT no rapsberry pi
 * Configurando um _hostname_ local para o raspberry pi 
 * Configurando o Broker 
-* Realizando um teste local 
+* Realizando um teste local, via cliente execuntando em linha de comando 
+* Realizando teste aplicativo do google chrome, MQTTLens
 
 
 
