@@ -14,8 +14,7 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Testando a comunicação via "Websocket UI" do site cloudmqtt
 * Arquivos disponíveis na pasta "/teste1" 
 
-## Teste 2 https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/ 
-* https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/ 
+## Teste 2
 * Ajustando o cliente MQTT no ESP para uso de um relé
 * Subescrevendo em um tópico ('rele1')
 * Modificando a função 'sub_cb' para desativar o relé quando receber 0 ou ativar quando receber 1 no tópico 'rele1'
