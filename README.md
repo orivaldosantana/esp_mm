@@ -14,11 +14,19 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Testando a comunicação via "Websocket UI" do site cloudmqtt
 * Arquivos disponíveis na pasta "/teste1" 
 
-## Teste 2 
+## Teste 2 https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/ 
+* https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/ 
 * Ajustando o cliente MQTT no ESP para uso de um relé
 * Subescrevendo em um tópico ('rele1')
 * Modificando a função 'sub_cb' para desativar o relé quando receber 0 ou ativar quando receber 1 no tópico 'rele1'
 * Arquivos disponíveis na pasta "/teste2" 
+
+## Teste 3 
+* Instalando o Broker MQTT no rapsberry pi
+* Configurando um _hostname_ local para o raspberry pi 
+* Configurando o Broker 
+* Realizando um teste local 
+
 
 
 ## Referências 
@@ -27,3 +35,6 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * IDE uPyCraft, https://github.com/DFRobot/uPyCraft_src
 * ESP8266 com MQTT controlando lâmpada ligada em outro ESP (Interruptor WiFi) [ESP8266 #07],  https://www.youtube.com/watch?v=oX4ttJEULmA
 * O protocolo MQTT, https://www.gta.ufrj.br/ensino/eel878/redes1-2018-1/trabalhos-vf/mqtt/ 
+* Instalando Broker Mosquitto - Filipe Flop,  https://www.filipeflop.com/blog/broker-mqtt-com-raspberry-pi-zero-w/
+* Instalando Broker Mosquitto - Random Nerd Tutorial, https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/ 
+* Teste local do Broker,  https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/ 
