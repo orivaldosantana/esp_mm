@@ -25,7 +25,7 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Configurando um _hostname_ local para o raspberry pi 
 * Configurando o Broker 
 * Realizando um teste local, via cliente execuntando em linha de comando 
-* Realizando teste aplicativo do google chrome, MQTTLens
+* Realizando com o aplicativo do google chrome, MQTTLens
 
 
 
