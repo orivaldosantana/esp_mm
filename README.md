@@ -38,3 +38,4 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Instalando Broker Mosquitto - Filipe Flop,  https://www.filipeflop.com/blog/broker-mqtt-com-raspberry-pi-zero-w/
 * Instalando Broker Mosquitto - Random Nerd Tutorial, https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/ 
 * Teste local do Broker,  https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/ 
+* Instalar o broker MQTT Mosquitto na Raspberry Pi (Automação Residencial) [RPi #03], https://www.youtube.com/watch?v=gQhSyAmnGgY
