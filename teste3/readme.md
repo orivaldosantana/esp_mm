@@ -53,9 +53,15 @@ $ sudo systemctl start mosquitto
 ```
 
 ## Teste 
+Inscrição em um canal via linha de comando:
 ```bash
 $ mosquitto_sub -v -t "topico" -u nome_usuario -P senha
 ```
+Publicando em um canal: 
+```bash
+mosquitto_pub -d -t 'topicoB' -m "0" -u nome_usuario -P senha
+```
+O teste pode ser realizado via aplicativo do chrome, MQTTLens. 
 
 ### Programação
 
