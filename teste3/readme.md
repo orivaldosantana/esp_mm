@@ -48,7 +48,7 @@ $ sudo mosquitto_passwd -c /etc/mosquitto/pwfile nome_do_usuario
 
 O serviço mosquito deve ser reiniciado para carregar as novas configurações do arquivo de configuração/: 
 ```bash
-$ sudo systemctl start mosquitto
+$ sudo systemctl stop mosquitto
 $ sudo systemctl start mosquitto
 ```
 
@@ -57,6 +57,23 @@ $ sudo systemctl start mosquitto
 $ mosquitto_sub -v -t "topico" -u nome_usuario -P senha
 ```
 
+### Programação
+
+Variáveis atualizadas no arquivo _boot.py_ 
+
+```python
+ssid = '****'
+password = '****'
+mqtt_server = '****'
+server_port=1883
+mqtt_user='****'
+mqtt_password='****'
+
+topic_sub = b'esp/rele1'
+topic_pub = b'esp/vivo'
+```
+
+No arquivo _main.py_ a função para subscrição foi atualizada para o tópico desejado. 
 
 
 
