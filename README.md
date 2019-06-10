@@ -27,6 +27,10 @@ Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQ
 * Realizando um teste local, via cliente execuntando em linha de comando 
 * Realizando com o aplicativo do google chrome, MQTTLens
 
+## Teste 4
+* Semelhante ao teste três, mas com um servidor hospedado no Digital Ocean (https://www.digitalocean.com/) 
+* Configuração o Firewall com regras de acesso a porta 1883 usado no Borker MQTT usando a ferramenta UFW, (https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands) 
+
 
 
 ## Referências 
