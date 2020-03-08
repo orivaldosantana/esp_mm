@@ -1,5 +1,5 @@
 # ESP, MicroPython e MQTT
-Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQTT 
+Este repositório realiza alguns testes introdutórios com ESP, MicroPython e MQTT. Este é um repositório de estudo.  
 
 ## Instalação 
 * uPyCraft -IDE de desenvolvimento em MicroPython e ESP, https://www.embarcados.com.br/micropython-no-esp8266/
