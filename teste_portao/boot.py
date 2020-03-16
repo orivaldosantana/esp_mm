@@ -14,7 +14,14 @@ gc.collect()
 from machine import Pin
 #GPIO is equal to D2 
 gpio_rele1 = Pin(2, Pin.OUT)
-gpio_rele1.value(1); 
+gpio_rele1.value(0); 
+
+
+intervalo_tempo_ligado = 2 # tempo em que o sinal fica em alta 
+tempo_que_ligou = 0
+
+estado_ligado = False 
+
 
 client_id = ubinascii.hexlify(machine.unique_id())
 topic_sub = b'sitio/portao/rele1'

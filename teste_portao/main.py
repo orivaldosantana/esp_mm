@@ -4,10 +4,13 @@ def sub_cb(topic, msg):
   print((topic, msg))
   if topic == b'sitio/portao/rele1' and msg == b'v':
     print('ESP received, rele1 to on')
-    gpio_rele1.value(0)
+    gpio_rele1.value(1)
+    tempo_que_ligou = time.time()
+    estado_ligado = True 
   if topic == b'sitio/portao/rele1' and msg == b'f':
     print('ESP received, rele1 to off')
-    gpio_rele1.value(1)  
+    gpio_rele1.value(0) 
+    estado_ligado = False    
 
 def connect_and_subscribe():
   global client_id, mqtt_server, topic_sub, server_port, mqtt_user, mqtt_password
@@ -31,6 +34,10 @@ except OSError as e:
 while True:
   try:
     client.check_msg()
+    if ((time.time() - tempo_que_ligou) > intervalo_tempo_ligado ) and estado_ligado
+      estado_ligado = False
+      gpio_rele1.value(0)   
+
     if (time.time() - last_message) > message_interval:
       # write on 'Hello' topic 
       msg = b'Tempo #%d' % counter
